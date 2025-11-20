@@ -1,31 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Aprender a aprender</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="page">
-        <header class="header">
+      <header class="header">
+        <img
+          src="images/TripletenLogo.svg"
+          alt="Logo inicial"
+          class="logo logo_place_header"
+        />
 
-        </header>
-        <main class="content">
-            <section class="description">
-            </section>
-            
-            <section class="digits">
-            </section>
+        <h1 class="header__title">Aprender a aprender</h1>
+        <p class="header__subtitle">
+          Las tednicas de aprendizaje más eficcaces y avanzadas que puedes
+          aplicar en tu vida diaria.<br />
+          <a href="#" class="header__link">Más informacion →</a>
+        </p>
+        <img
+          src="images/on_the_edge.png"
+          alt="On the edge"
+          class="header_main-illustration"
+        />
+        <img
+          src="images/triangle.svg"
+          alt="triangle"
+          class="header__square-pic"
+        />
+      </header>
+      <main class="content">
+        <section class="content__description">
+          <div class="content__two-columns">
+            <p class="content__brief">El principal problema de la educación</p>
+            <div class="content__main-text">
+              <p class="content__paragraph">
+                Ya sea en la escuela o en la universidad, lo único que nadie te
+                enseña es a enseñarte a ti mismo. Muchas veces acabamos haciendo
+                ejercicios específicos y memorizando información sin pensar,
+                para que cuando llegue la hora del examen, aprobemos la prueba.
+                Pero una vez terminada la prueba, esa información ya no tiene
+                utilidad, y no hay garantía de que se conserve. Al final, solo
+                estamos aprendiendo a pasar las pruebas.
+              </p>
+              <p class="content__paragraph">
+                <span class="content__span-accent"
+                  >Aquí está la verdadera pregunta:</span
+                >
+                ¿este enfoque de repetición y memorización nos ayuda a
+                comprender realmente la materia? El consenso académico actual es
+                que no. En realidad, lo que es más importante que cualquier tema
+                individual es saber cómo estudiar, pero por alguna razón, este
+                punto a menudo se pasa por alto. Entonces, ¿qué podemos hacer
+                para remediarlo?
+              </p>
+              <p class="content__paragraph">
+                Bien, hay varias técnicas y ejercicios que pueden aplicarse al
+                proceso educativo para ayudar a hacerlo más eficiente y
+                atractivo. Continúa avanzando para descubrir algunos de los
+                secretos del aprendizaje eficaz.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="content__digits">
+          <h2 class="content__section-title">Datos y figuras</h2>
+          <h3 class="content__section-subtitle">El aprendizaje y el cerebro</h3>
+          <ul class="content__table">
+            <li class="content__cell">
+              <p class="content__heading">86 billones</p>
+              <p class="content__text">
+                El número de neuronas en el cerebro humano.
+              </p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">73%</p>
+              <p class="content__text">
+                Porcentaje de adultos en EE. UU. que se consideran alumnos de
+                por vida.
+              </p>
+              <p>Pew Research Centerе</p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">1,000 terabytes</p>
+              <p class="content__text">
+                La capacidad de almacenamiento de información de un ser humano
+              </p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">500 trillones</p>
+              <p class="content__text">
+                El número de sinapsis nerviosas responsables del aprendizaje en
+                un ser humano adulto medio
+              </p>
+            </li>
 
-            <section class="feynman">
-            </section>
-            
-            <section class="kaufman">
-            </section>
-        </main>
-        <footer class="footer">
-
-        </footer>
+            <li class="content__cell">
+              <p class="content__heading">420 millones</p>
+              <p class="content__text">
+                El número de adultos menores de 25 años con una educación
+                insuficiente para encontrar empleo.
+              </p>
+              <p>Banco mundial 2017</p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">26 años</p>
+              <p class="content__text">
+                La edad a la que Albert Einstein publicó su innovador artículo
+                sobre la relatividad especial
+              </p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">1885</p>
+              <p class="content__text">Desarrollo de la curva del olvido</p>
+            </li>
+            <li class="content__cell">
+              <p class="content__heading">1897</p>
+              <p class="content__text">
+                Publicación de las investigaciones de Ivan Pavlov sobre el
+                condicionamiento clásico
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="content__feynman">
+          <h2 class="content__title">La técnica Feynman</h2>
+          <h3 class="content__subtitle">Aprender sin olvidar</h3>
+          <a href="#" class="content__link">Mas →</a>
+          <img
+            src="images/feynman.png"
+            alt="Feynman´s face"
+            class="content__image"
+          />
+        </section>
+        <section class="content__kaufman">
+          <h2 class="content__section-title_theme_dark">
+            Ten principles of rapid skill acquisition
+          </h2>
+          <h3 class="content__section-subtitle_theme_dark">by Josh Kaufman</h3>
+          <ul class="content__table_theme_dark">
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">1</p>
+              <p class="content__text_theme_dark">
+                Elegir un proyecto atractivo
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">2</p>
+              <p class="content__text_theme_dark">
+                Enfocar tu energia en una habilidad a la vez
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">3</p>
+              <p class="content__text_theme_dark">
+                Definir tu nivel de desempeño
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">4</p>
+              <p class="content__text_theme_dark">
+                Deconstruir la habilidad en sub-habilidades
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">5</p>
+              <p class="content__text_theme_dark">
+                Obtener herramientas criticas
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">6</p>
+              <p class="content__text_theme_dark">
+                Eliminar los obstaculos que impiden la practica
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">7</p>
+              <p class="content__text_theme_dark">
+                Dedicar tiempo a la práctica
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">8</p>
+              <p class="content__text_theme_dark">
+                Crear bucles de retroalimentacion rápidos
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">9</p>
+              <p class="content__text_theme_dark">
+                Practicar en breves intervalos con un reloj
+              </p>
+            </li>
+            <li class="content__cell_theme_dark">
+              <p class="content__heading_theme_dark">10</p>
+              <p class="content__text_theme_dark">
+                Enfatizar la cantidad y la velocidad
+              </p>
+            </li>
+          </ul>
+          <img
+            src="images/triangle.svg"
+            alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad"
+            class="content__triangle"
+          />
+        </section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-</body>
+  </body>
 </html>
