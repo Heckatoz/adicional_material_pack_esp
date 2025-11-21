@@ -269,8 +269,8 @@ recordarte cómo configurar los estilos de los elementos*/
 
 .content__triangle {
   position: absolute;
-  width: 660px;
-  height: 636px;
+  /*width: 660px;
+  height: 636px;*/
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
@@ -278,4 +278,72 @@ recordarte cómo configurar los estilos de los elementos*/
   right: -124px;
   top: 0;
   z-index: 0;
+}
+
+.footer {
+  min-height: 350px;
+  position: relative;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 60px 5% 40px;
+}
+
+.footer__logo_place {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 18px;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column_content-copyright {
+  flex-basis: 711px;
+  padding: auto;
+}
+
+.footer__column_content-about {
+  margin: 0 auto 0;
+}
+
+.footer__column_content-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-icons {
+  height: 16px;
+  width: 16px;
+  margin: 0 10px 0 0;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 18px;
+  margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
